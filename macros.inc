@@ -19,7 +19,7 @@ UPDATE_CELL Macro pos,sign
     
     pop si
     pop bx
-    pop si
+    pop ax
     
 endm
 
@@ -65,11 +65,11 @@ check_Line macro p1, p2, p3, win_flag
 
     lea bx, board
     
-    
+  
     mov si, p1
     mov al, [bx+si]
     
-    
+   
     cmp al, 'X'
     je continue_check
     cmp al, 'O'
@@ -77,7 +77,7 @@ check_Line macro p1, p2, p3, win_flag
     jmp no_win
 
 continue_check:
-    
+   
     mov si, p2
     cmp al, [bx+si]
     jne no_win
