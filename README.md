@@ -36,5 +36,7 @@ To run this game, you will need:
 👥 Contribution
 
 Hina Jabeen (01-135232-029) UI/UX Design & Rendering Engine
+
 Hamna Mateen (01-135232-022) Macro Architecture
+
 Ahmed Hayat (01-135232-005) Game Logic & State Management
